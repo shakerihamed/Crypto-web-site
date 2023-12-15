@@ -1,0 +1,35 @@
+.container{
+    width: 160px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border-radius: 10px;
+    background: linear-gradient(red , blue);
+    padding: 2px;
+}
+.container h3{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu{
+    font-size: 2rem;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    cursor: pointer;
+}
+.showMenu{
+    position: absolute;
+    top: 80px;
+    right: -200px;
+    transition: 1s;
+}
+.hideMenu{
+    position: absolute;
+    top: 90px;
+    right: 1px;
+    transition: 1s;
+
+}

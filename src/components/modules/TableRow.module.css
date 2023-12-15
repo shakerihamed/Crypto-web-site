@@ -1,0 +1,37 @@
+.symbol{
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.tr:hover{
+    background-color: #333;
+}
+.symbol img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.symbol span{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #9fa6b7;
+}
+.success{
+    color: #57bc7c;
+}
+.error{
+    color: #d33636;
+}
+
+@media (max-width:600px) {
+    .table{
+        display: block;
+        overflow-x: scroll;
+    }
+    .table th , 
+    .table td{
+        padding: 0 10px;
+    }
+}
